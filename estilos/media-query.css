@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+Typical Device Breakpoints
+
+Mobile devices – até 600px.
+iPads, Tablets – 601px — 768px.
+Small screens, laptops – 769px — 992px.
+Desktops, large screens – 993px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+/* Dentro de @media vai o que você quer modificar a partir do Modelo Mobile First */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: linear-gradient(to bottom, #412716, #845A43);
+    }
+    section {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    section > div#imagem {
+        float: left;
+        width: 60%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background-position: top center;
+    }
+
+    section > div#formulario {
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #412716, #845A43);
+    }
+    
+    section {
+        width: 980px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 65%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+
+    }
+}
