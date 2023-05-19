@@ -35,7 +35,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 250px;
     height: 528px;
     border-radius: 20px;
@@ -44,6 +43,7 @@
 
     transition: width 0.4s, heigth 0.4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
  }
 
  div#imagem {
@@ -105,12 +105,12 @@
    font-size: 1em;
    width: 80%;
    height: 100%;
-   transform: translateY(-9.6px);
    border: 0px;
    border: inset;
    border-color: #845A43;
    border-radius: 8px;
    padding: 5px;
+   transform: translateY(-9.6px);
  }
 
  form > input[type=submit] {
