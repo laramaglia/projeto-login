@@ -18,7 +18,7 @@ Extra large screens, TV – 1201px, and more.
     }
     section {
         width: 90vw;
-        height: 90vh;
+        height: 65vh;
     }
 
     section > div#imagem {
@@ -33,7 +33,11 @@ Extra large screens, TV – 1201px, and more.
         float: right;
         width: 40%;
         height: 100%;
+        padding-top: 50px;
     }
+    form > div.campo > input {
+        width: 85%;      
+      }
 }
 
 @media screen and (min-width: 993px) {
@@ -44,6 +48,7 @@ Extra large screens, TV – 1201px, and more.
     
     section {
         width: 980px;
+        height: 65vh;
     }
 
     div#imagem {
@@ -51,6 +56,25 @@ Extra large screens, TV – 1201px, and more.
         width: 65%;
         height: 100%;
         border-radius: 0px 20px 20px 0px;
-
     }
+
+    section > div#formulario {
+        padding-top: 50px;
+    }
+
+    form > input[type=submit] {
+        width: 33%;      
+      }
+     
+      form > a.botao {
+        width: 33%;
+      }
+    
+      form > div.campo {
+        width: 33%;
+      }
+      form > div.campo > input {
+        width: 85%;      
+      }
+        
 }
